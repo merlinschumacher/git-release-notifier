@@ -1,0 +1,17 @@
+settings:
+  notification_emails:
+    - "demo@example.com"
+  
+  smtp:
+    host: ""
+    port: 587
+    username: ""
+    password: ""
+
+repositories:
+  - gitlab:
+      title: "GitLab master" 
+      url: https://gitlab.com/gitlab-org/gitlab.git
+      branch: master
+      notification_emails:
+        - "demo@example.com"
