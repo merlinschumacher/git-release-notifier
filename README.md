@@ -4,7 +4,7 @@ This script will send you an email, when a new release/tag is published on GitHu
 
 To configure it just look at the `config.yml.examlpe` file and modify it to your needs.
 
-There is also a docker image available for this script. To use the continer run the following command:
+There is also a docker image available for this script. To run a container use the following command:
 
 ```
 docker run -v $(pwd)/config.yml:/app/config.yml ghcr.io/merlinschumacher/git-release-notifier:main
