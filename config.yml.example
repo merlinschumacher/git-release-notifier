@@ -1,8 +1,6 @@
 settings:
-  notification_emails:
-    - "demo@example.com"
-  
   smtp:
+    sender_address: notifications@merlinschumacher.de
     host: ""
     port: 587
     username: ""
@@ -10,8 +8,7 @@ settings:
 
 repositories:
   - gitlab:
-      title: "GitLab master" 
+      title: "GitLab" 
       url: https://gitlab.com/gitlab-org/gitlab.git
-      branch: master
-      notification_emails:
+      recipients:
         - "demo@example.com"
