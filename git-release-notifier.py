@@ -1,9 +1,7 @@
 import logging
-from platform import release
 import smtplib
 from email.message import EmailMessage
 import ssl
-from typing import Tuple
 
 import yaml
 from git import cmd
