@@ -3,6 +3,6 @@ gitdb==4.0.9
 GitPython==3.1.41
 pycodestyle==2.11.1
 PyYAML==6.0.1
-semver==2.13.0
+semver==3.0.2
 smmap==5.0.0
 toml==0.10.2
