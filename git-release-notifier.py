@@ -63,7 +63,7 @@ class Config():
         with open(self.config_file, 'r') as f:
             try:
                 log.info("Loaded config file: %s", self.config_file)
-                return yaml.load(f, Loader=yaml.FullLoader)
+                return yaml.safe_load(f, Loader=yaml.FullLoader)
             except yaml.YAMLError as e:
                 log.exception("Failed to load config file: %s",
                               self.config_file)
