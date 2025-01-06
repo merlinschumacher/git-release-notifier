@@ -4,5 +4,5 @@ GitPython==3.1.43
 pycodestyle==2.12.1
 PyYAML==6.0.2
 semver==3.0.2
-smmap==5.0.1
+smmap==5.0.2
 toml==0.10.2
